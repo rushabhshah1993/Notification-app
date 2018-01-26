@@ -1,0 +1,22 @@
+{
+	"0":{
+		"type":"assigned",
+		"timestamp":"2018-01-22T10:18:41.215Z",
+		"text":"You have just received a message from Jonathan."
+	},
+	"1":{
+		"type":"reminder",
+		"timestamp":"2018-01-22T10:31:43.507Z",
+		"text":"You have to feed the evil cat."
+	},
+	"2":{
+		"type":"general",
+		"timestamp":"2018-01-22T10:33:40.824Z",
+		"text":"Afreen killed the cat."
+	},
+	"3":{
+		"type":"reminder",
+		"timestamp":"2018-01-22T11:03:26.342Z",
+		"text":"You have to find Afreen."
+	}
+}

@@ -1,0 +1,34 @@
+.header-card {
+  color: grey;
+  padding: 6% !important;
+  border-bottom: 1px solid grey; }
+
+.notification-panel {
+  border-bottom: 1px solid grey; }
+
+.notify_text {
+  color: grey; }
+
+.notify-number {
+  color: #64b5f6; }
+
+.notification-class {
+  display: none; }
+
+.notify-new {
+  display: none;
+  position: absolute;
+  top: 25%;
+  transform: translate(25%, -50%);
+  z-index: 9999; }
+
+.notify-type {
+  font-size: medium; }
+  @media screen and (max-width: 375px) {
+    .notify-type {
+      font-size: small; } }
+
+.add-notification-div {
+  margin-top: 2%; }
+
+/*# sourceMappingURL=index.css.map */

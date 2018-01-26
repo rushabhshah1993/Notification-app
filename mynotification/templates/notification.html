@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Notification Component</title>
+		<!--Import Google Icon Font-->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!-- Compiled and minified CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+		<link rel="stylesheet" href="/static/css/index.css">
+
+	</head>
+
+	<body>
+		<div class = "row">
+			<div class="col s12 header-card">
+				<h3 id="today"></h3>
+			</div>
+		</div>
+
+		<div class="row notification-panel">
+			<div class="col s12">
+				<h3 class="notify_text"><span id="assigned_badge"></span> Assigned Tasks</h3>
+				<h3 class="notify_text"><span id="reminder_badge"></span> Reminders</h3>
+				<h3 class="notify_text"><span id="general_badge"></span> Notifications</h3>
+			</div>
+		</div>
+
+		<div class="notification-list">
+
+		</div>
+
+
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<!-- Compiled and minified JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+		<script src="/static/js/index.js"></script>
+		<script src="/static/js/notify.js"></script>
+	</body>
+</html>

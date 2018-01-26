@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Notification Component</title>
+		<!--Import Google Icon Font-->
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!-- Compiled and minified CSS -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+		<link rel="stylesheet" href="/static/css/index.css">
+
+	</head>
+
+	<body>
+
+		<nav>
+			<div class="nav-wrapper">
+		    	<a href="#!" class="brand-logo left"><i class="material-icons">cloud</i>Not(ify)</a>
+		     	<ul class="right">
+		       		<li><a class="waves-effect" id="show_notification"><i class="material-icons">view_module</i></a><span class="new badge pulse notify-new"></span></li>
+		       		<li><a href="collapsible.html"><i class="material-icons">refresh</i></a></li>
+		     	</ul>
+		   	</div>
+		</nav>
+
+		<div class="container add-notification-div">
+			<div class="row">
+				<div class="col s12">	
+					<center><a class="btn" id="add_notification">Add Notification</a></center>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="notification-class container">
+			<div class = "header-card row">
+				<div class="col s3">
+					<i class="material-icons medium teal-text">date_range</i>
+				</div>
+				<div class="col s9">
+					<h5 id="today"></h5>
+				</div>
+			</div>
+
+			<div class="row notification-panel">
+				<div class="col s12">
+					<center class="row">
+						<h3 class="notify_text col s4 m4"><span class="notify-number" id="assigned_badge"></span><br><span class="notify-type">  Assigned Tasks</span></h3>
+						<h3 class="notify_text col s4 m4"><span class="notify-number" id="reminder_badge"></span><br><span class="notify-type">   Reminders</span></h3>
+						<h3 class="notify_text col s4 m4"><span class="notify-number" id="general_badge"></span><br><span class="notify-type">  Notifications</span></h3>
+					</center>
+				</div>
+			</div>
+
+			<div class="notification-list">
+
+			</div>
+		</div>
+
+		
+
+
+		<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<!-- Compiled and minified JavaScript -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+		<script src="/static/js/index.js"></script>
+		<script src="/static/js/notify.js"></script>
+	</body>
+</html>
