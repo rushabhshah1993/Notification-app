@@ -59,6 +59,13 @@ $("#show_notification").on("click",function(){
 
 
 
+$("#refresh-btn").on("click",function(){
+	$(".notification-class").hide();
+	notify(global_data);
+	$(".notification-class").show();
+})
+
+
 // Creates a random notification and assigns it to the notification div.
 function addNotification(){
 	var type = ["assigned","general","reminder"];
